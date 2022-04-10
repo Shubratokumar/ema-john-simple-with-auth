@@ -7,7 +7,6 @@
     padding-left: 140px;
     padding-right: 140px;
 }
-
 .header a{
     color: #FFFFFF;
     text-decoration: none;
@@ -16,4 +15,14 @@
 }
 .header a:hover{
     color: orange;
+}
+.signout-btn{
+    border: none;
+    margin-left: 36px;
+    background: none;
+    color: #FFFFFF;
+    font-size: 17px;
+}
+.signout-btn:hover{
+    color: orangered;
 }
