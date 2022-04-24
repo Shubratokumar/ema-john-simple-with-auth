@@ -1,4 +1,5 @@
-/*======================= Auth Steps =========================== 
+/*============================= Auth Steps ================================
+
     * 1. Create a new firebase project in console.firebase.google.com;
     * 2. npm install firebase;
     * 3. Create firebase.init.js and import getAuth to export auth;
@@ -12,12 +13,14 @@
     * 11. Create RequireAuth component > check user exists also track user location;
     * 12. In route wrap protected component by using RequireAuth Component;
     *
-================================================================*/
+==========================================================================*/
 
-/*======================= Firebase Hosting steps ========================
-    * 1. npm install -g firebase-tools
-    * 2. firebase login;
-    * 3. firebase init;
-    * 4. firebase deploy;
+/*======================= Firebase Hosting steps ==========================
+
+    * 1. npm install -g firebase-tools (one time for my computer);
+    * 2. firebase login (one time for my computer);
+    * 3. firebase init (one time for each project);
+    * 4. npm run build (every time before deploy);
+    * 5. firebase deploy (every time after build);
     * 
- ================================================================*/
+ =========================================================================*/
